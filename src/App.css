@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.container .btn{
+    background-color: #fff;
+    border-radius: 14px;
+    border: 1px solid #000;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .btn button{
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container .btn button:nth-child(1){
+    background-color: greenyellow;
+}
+.container .btn button:nth-child(2){
+    background-color: rgb(244, 86, 86);
+}
+.container .btn button:nth-child(4){
+    background-color: rgb(87, 87, 233);
+}
+.container .stiv{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+}
+.container .stiv button{
+    padding: 14px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0 14px  14px 0;
+}
+.container .stiv button:nth-child(1){
+    border-radius: 14px 0 0  14px;
+    padding: 10px;
+}
+.container .max{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    gap: 30px;
+}
+.container .max .box{
+    width: 45%;
+    height: 100%;
+    border-radius: 14px;
+    padding: 10px;
+}
+.container .max .box .a{
+    width: 100%;
+    height: 47%;
+    border: 1px solid #000;
+    border-radius: 14px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .max .box .a .info{
+    display: flex;
+    gap: 30px;
+}
+.container .max .box .a .info button{
+    padding: 14px;
+    border-radius:0 14px 14px 0;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container .max .box .a .info button:nth-child(1){
+    border-radius: 14px 0 0 14px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+}
+.container .max .box .a .butt{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+.container .max .box .a .butt button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container .max .box .a .butt button:nth-child(1){
+    background-color: greenyellow;
+}
+.container .max .box .a .butt button:nth-child(2){
+    background-color: rgb(244, 86, 86);
+}
+
